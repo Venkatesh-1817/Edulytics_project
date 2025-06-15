@@ -1,0 +1,25 @@
+{
+    "name": "trigger1",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Stopped",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "pipeline1",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "BlobEventsTrigger",
+        "typeProperties": {
+            "blobPathBeginsWith": "/source/blobs/",
+            "blobPathEndsWith": ".csv",
+            "ignoreEmptyBlobs": true,
+            "scope": "/subscriptions/f411b8b9-6ef2-4795-9ba7-be823c572ffe/resourceGroups/Venkatesh_RG/providers/Microsoft.Storage/storageAccounts/udemyblobstorage001",
+            "events": [
+                "Microsoft.Storage.BlobCreated"
+            ]
+        }
+    }
+}

@@ -1,0 +1,6 @@
+selected resource name:		pipeline1
+selected resource type:		pipeline
+factory name:			udemyproject001
+factory location:		eastus
+subscription id:		f411b8b9-6ef2-4795-9ba7-be823c572ffe
+time of download (UTC):		Sun, 15 Jun 2025 17:00:47 GMT
